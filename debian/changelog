@@ -1,3 +1,9 @@
+heimdal (1.6~git20120311.dfsg.1-2ubuntu0.1pexip1) pexip; urgency=low
+
+  * Prepare Pexip packaging
+
+ -- John-Mark Bell <jmb@pexip.com>  Tue, 24 Dec 2013 20:53:08 +0000
+
 heimdal (1.6~git20120311.dfsg.1-2ubuntu0.1) precise; urgency=low
 
   * Add debian/patches/044_file_desc to prevent running out of file

@@ -1,9 +1,10 @@
 Source: heimdal
 Section: net
 Priority: optional
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Maintainer: Pexip AS <packaging@pexip.com>
+XSBC-Pexip-Original-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 XSBC-Original-Maintainer: Brian May <bam@debian.org>
-Uploaders: Jelmer Vernooij <jelmer@debian.org>
+XSBC-Pexip-Original-Uploaders: Jelmer Vernooij <jelmer@debian.org>
 Homepage: http://www.h5l.org/
 Standards-Version: 3.9.3
 Build-Depends: bison,
@@ -27,6 +28,7 @@ Build-Depends: bison,
                x11proto-core-dev
 Build-Conflicts: heimdal-dev
 Vcs-Git: git://git.debian.org/git/collab-maint/heimdal/
+XS-Pexip-Upstream: http://archive.ubuntu.com/ubuntu/ precise
 
 Package: heimdal-docs
 Section: doc
